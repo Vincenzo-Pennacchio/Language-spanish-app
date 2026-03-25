@@ -1,5 +1,5 @@
 import React from 'react';
-import { BookOpen, MessageCircle, GraduationCap, Globe, Mic, Book } from 'lucide-react';
+import { BookOpen, MessageCircle, GraduationCap, Globe, Mic, Book, Gamepad2, Settings } from 'lucide-react';
 
 const HomePage = ({ onNavigate }) => {
   const modules = [
@@ -80,6 +80,19 @@ const HomePage = ({ onNavigate }) => {
         'Regional variations'
       ],
       color: '#607D8B'
+    },
+    {
+      id: 'games',
+      title: 'Mini-Giochi Educativi',
+      description: 'Impara divertendoti con giochi interattivi: abbinamento parole, traduzione lampo e molto altro.',
+      icon: Gamepad2,
+      features: [
+        'Giochi interattivi e divertenti',
+        'Abbinamento parole spagnolo-italiano',
+        'Sfide di traduzione veloce',
+        'Punteggi e classifiche personali'
+      ],
+      color: '#4CAF50'
     }
   ];
 
